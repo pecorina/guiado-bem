@@ -5,10 +5,43 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Ejercicio Guiado BEM</title>
+	<!--compatibilidad con navegadores de microsoft-->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!--adaptable a todos los tamaños de compu-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- Link archivo css-->
+	<link rel="stylesheet" type="text/css" href="css/main.css">
 	
 </head>
 <body>
+<!--menu con las clases BEM-->
+    <header>
+    	<ul class="a-menu">
+    		<li class="a-menu__item">
+    		<a class="a-menu__item__link" href="#">BLOG</a></li>
+    		<li class="a-menu__item">
+    		<a class="a-menu__item__link" href="#">ABOUT</a></li>
+    		<li class="a-menu__item">
+    		<a class="a-menu__item__link" href="#">CONTACTO</a></li>
+    	</ul>
+    </header>
+    <section>
+    	<div class="article">
+    		<h2 class="article__title">Mermeladas</h2>
+    		<p class="article__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus sunt eius eligendi aperiam nemo eos sed impedit libero sapiente porro illum explicabo ea animi necessitatibus iste cum, ipsam doloremque deleniti.</p>
+    		<img src="img/mermeladas pirque.jpg" alt="" class="article__img">
+    	</div>
+    	<div class="article article--green">
+            <h2 class="article__desc">Los beneficios de la Miel</h2>
+            <p class="article__title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium molestiae eligendi aliquam laudantium nam, ipsam odio alias voluptatem exercitationem velit pariatur aliquid quia fuga harum corporis? Doloremque labore voluptatibus eaque.</p>    
+            <img src="img/MIEL-DE-ABEJA-230x130.png" alt="" class="article__img">		
+    	</div>
+    </section>
+    <footer class="pie">
+    	<p class="pie__item--center">
+    		Create by someone
+    	</p>
+    </footer>
 
 </body>
 </html>
